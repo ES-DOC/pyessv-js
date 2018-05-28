@@ -1,0 +1,29 @@
+{
+  "name": "pyessv",
+  "version": "0.1.0",
+  "description": "ES-DOC pyessv javscript library",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ES-DOC/pyessv-js.git"
+  },
+  "keywords": [
+    "es-doc",
+    "pyessv",
+    "vocabularies"
+  ],
+  "author": "Mark A. Conway-Greenslade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ES-DOC/pyessv-js/issues"
+  },
+  "homepage": "https://github.com/ES-DOC/pyessv-js#readme",
+  "dependencies": {
+    "npm": "^6.1.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.8.3"
+  }
+}
