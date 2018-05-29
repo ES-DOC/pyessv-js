@@ -13,6 +13,11 @@ class Node {
             this[key] = n[key];
         });
     }
+
+    // Returns flag indicating whether a name match occurs.
+    isMatch (name) {
+        return name === self.canonicalName;
+    }
 }
 
 // An entity publishing a vocabulary: e.g. esdoc.

@@ -22,8 +22,8 @@ const APP_MODE = (() => {
 // Api URL.
 const URL_API = {
     "dev": "http://localhost:5010",
-    "test": "https://test-api-pyessv.es-doc.org",
-    "prod": "https://api-pyessv.es-doc.org"
+    "test": "https://test-pyessv.es-doc.org",
+    "prod": "https://pyessv.es-doc.org"
 }[APP_MODE] + "/1/retrieve";
 
 // Module initialiser.
