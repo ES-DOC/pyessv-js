@@ -33,6 +33,11 @@ class Errata extends Scope {
         super(a, s);
     }
 
+    getModerationStatus (name) {
+        return _.isUndefined(name) ? this.getTerms('moderation-status') :
+                                     this.getTerm('moderation-status', name);
+    }
+
     getPidTaskAction (name) {
         return _.isUndefined(name) ? this.getTerms('pid-task-action') :
                                      this.getTerm('pid-task-action', name);
